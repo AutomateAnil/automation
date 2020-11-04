@@ -1,0 +1,9 @@
+automation\CommonUtilities\DriverManager.class
+automation\CommonUtilities\InitializeResources.class
+automation\Listeners\ListenerManager.class
+automation\AppiumServer\AppiumServerManager.class
+automation\Logging\LogManager.class
+automation\PageObjects\HomePageObjects.class
+automation\CommonUtilities\UtilitityFunctionsManager.class
+automation\CommonUtilities\PropertyReader.class
+automation\PageObjects\SignInPageObjects.class

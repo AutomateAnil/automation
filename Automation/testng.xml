@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="amazon_AndroidAppAutomation" verbose="1" >
+  <listeners>
+    <listener class-name="automation.Listeners.ListenerManager" />
+  </listeners>
+
+ <test name="projectLevelconfiguration">
+    <classes>
+    <class name="automation.CommonUtilities.InitializeResources"/>
+    </classes>
+ </test>   
+    <test name="amazonTest">
+    <classes>
+    <class name="automation.Automation.SignInPageTest"/>
+     <class name="automation.Automation.LoginPageTest"/>
+     <class name="automation.Automation.ProductSearchTest"/>
+    </classes>
+ </test>  
+
+</suite>
